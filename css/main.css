@@ -83,6 +83,7 @@ body{
 	
 }
 .big{
+	width:16%;
 	min-width:192px;
 	min-height:200px;
 	margin-top:4%;
@@ -121,6 +122,7 @@ body{
 	width:17%;
 	margin: 1.5%;
 	float:left;
+	z-index:200;
 }
 #yelowBox{
 	background-color: #e0cd4e;
@@ -128,6 +130,7 @@ body{
 	margin: 9%;
 	margin-left:0;
 	float:left;
+	z-index:200;
 	
 }
 
