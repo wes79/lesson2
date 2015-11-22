@@ -53,13 +53,14 @@ body{
 .center{
 	min-height: 300px;
 	margin-bottom: 2%;
-	clear:both;
+	float: left;
 }
 
 .bottom{
 	min-height: 360px;
 	margin-bottom: 10%;
 	position:relative;
+	float: left;
 }
 
 .purpleBgr{
@@ -83,8 +84,9 @@ body{
 	
 }
 .big{
+	float:left;
 	width:16%;
-	min-width:192px;
+	max-width:200%;
 	min-height:200px;
 	margin-top:4%;
 	margin-bottom:4%;
@@ -93,7 +95,8 @@ body{
 }
 .big:last-of-type{
 	margin-right:0;
-	min-width:193px;
+	width:15%;
+	
 }
 
 .redBgr{
