@@ -1,0 +1,141 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	width:100%;
+}
+
+
+body{
+	background-color: #FFF;
+}
+#wrapper{
+	position:relative;
+	min-height:800px;
+	min-width:1000px;
+
+}
+.mainContainer{
+	
+	min-height:800px;
+	min-width:1000px;
+    width: 90%;
+	margin-left:5%;
+	margin-right:5%;
+	
+    
+}
+
+.bluBgr{
+	background-color: #88d8fd;
+}
+
+.top{
+	min-height: 100px;
+	margin-bottom: 2%;
+	float:left;
+}
+
+.center{
+	min-height: 300px;
+	margin-bottom: 2%;
+	clear:both;
+}
+
+.bottom{
+	min-height: 360px;
+	margin-bottom: 10%;
+	position:relative;
+}
+
+.purpleBgr{
+	background-color: #8f4ee0;
+}
+.footer{
+	min-height:30px;
+}
+.redBox{
+	background-color: #e04e5a;
+	min-width:80px;
+	min-height:70px;
+	max-width:60px;
+	max-height:70px;
+	margin-right:1%;
+	float:left;
+}
+.last{
+	float:right;
+	margin-right:0;
+	
+}
+.big{
+	min-width:192px;
+	min-height:200px;
+	margin-top:4%;
+	margin-bottom:4%;
+	
+
+}
+.big:last-of-type{
+	margin-right:0;
+	min-width:193px;
+}
+
+.redBgr{
+	position:absolute;
+	background-color: #e04e5a;
+	margin:1%;
+	min-height:336px;
+	width:98%;
+	z-index:100;
+	float:left;
+}
+
+#leftBox{
+	float:left;
+	width:85%;
+
+}
+#rightBox{
+	float:left;
+	width:14%;
+}
+
+.greenBox{
+	background-color: #4ee077;
+	min-height: 138px;
+	width:17%;
+	margin: 1.5%;
+	float:left;
+}
+#yelowBox{
+	background-color: #e0cd4e;
+	min-height: 305px;
+	margin: 9%;
+	margin-left:0;
+	float:left;
+	
+}
+
+.right{
+	position:absolute;
+	left:0;
+	top: 300px;
+	min-height:200px;
+	width:2%;
+
+}
