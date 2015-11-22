@@ -68,6 +68,7 @@ body{
 }
 .footer{
 	min-height:30px;
+	float:left;
 }
 .redBox{
 	background-color: #e04e5a;
